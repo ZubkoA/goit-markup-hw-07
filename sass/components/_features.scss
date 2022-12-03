@@ -1,14 +1,15 @@
 .features {
   padding-top: 94px;
   padding-bottom: 94px;
+
+  &__card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
 }
 .features--container {
   display: flex;
-}
-.features__card {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
 }
 .features-card__item {
   flex-basis: calc((100% - 90px) / 4);
@@ -19,7 +20,7 @@
   align-items: center;
   width: 270px;
   height: 120px;
-  background: #f5f4fa;
+  background: $background;
   border-radius: 4px;
 }
 .features-card__container--retreat {

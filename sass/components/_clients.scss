@@ -1,16 +1,17 @@
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.clients__title {
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: $main;
-}
-.clients__title--retreat {
-  margin-bottom: 50px;
+
+  &__title {
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $main;
+  }
+  &__title--retreat {
+    margin-bottom: 50px;
+  }
 }
 
 .clients__list {

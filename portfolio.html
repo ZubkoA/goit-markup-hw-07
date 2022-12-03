@@ -15,29 +15,27 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- HEADER -->
     <header class="header">
-      <div class="container header__container">
+      <div class="container header--container">
         <a class="logo header__logo link" href="./index.html"
           >Web<span class="header__logo--color">Studio</span></a
         >
-        <nav class="nav">
-          <ul class="nav__list list">
-            <li class="nav__item">
-              <a class="nav__link link" href="./index.html">Студія</a>
+        <nav class="header__nav">
+          <ul class="header-tabs list">
+            <li class="header-tabs__item">
+              <a class="header-tabs__link link" href="./index.html">Студія</a>
             </li>
-            <li class="nav__item">
-              <a
-                class="nav__link nav__link--accent link"
-                href="./portfolio.html"
+            <li class="header-tabs__item">
+              <a class="header-tabs__link link accent" href="./portfolio.html"
                 >Портфоліо</a
               >
             </li>
-            <li class="nav__item nav__item--last">
-              <a class="nav__link link" href="#">Контакти</a>
+            <li class="header-tabs__item">
+              <a class="header-tabs__link link" href="#">Контакти</a>
             </li>
           </ul>
         </nav>
@@ -64,21 +62,25 @@
         <div class="container">
           <h1 class="hidden">Portfolio</h1>
           <!--BUTTON-->
-          <ul class="search list">
+          <ul class="portfolio__search search list">
             <li class="search__item">
-              <button class="search__button" type="button">Усі</button>
+              <button class="search__btn button" type="button">Усі</button>
             </li>
             <li class="search__item">
-              <button class="search__button" type="button">Веб-сайти</button>
+              <button class="search__btn button" type="button">
+                Веб-сайти
+              </button>
             </li>
             <li class="search__item">
-              <button class="search__button" type="button">Додатки</button>
+              <button class="search__btn button" type="button">Додатки</button>
             </li>
             <li class="search__item">
-              <button class="search__button" type="button">Дизайн</button>
+              <button class="search__btn button" type="button">Дизайн</button>
             </li>
             <li class="search__item">
-              <button class="search__button" type="button">Маркетинг</button>
+              <button class="search__btn button" type="button">
+                Маркетинг
+              </button>
             </li>
           </ul>
           <!--Portfolio-->
@@ -255,11 +257,11 @@
     <!-- FOOTER -->
     <footer class="footer">
       <div class="container footer__container">
-        <div class="footer-contact">
-          <a class="footer-contact__logo logo link" href="/"
-            >Web<span class="footer-contact__logo--color">Studio</span></a
+        <div class="footer__contact">
+          <a class="footer__logo logo link" href="/"
+            >Web<span class="footer__logo--color">Studio</span></a
           >
-          <address class="address">
+          <address class="footer__address address">
             <ul class="address__list list">
               <li class="address__items">
                 <a
@@ -283,9 +285,11 @@
             </ul>
           </address>
         </div>
-        <div class="media-container">
-          <p class="media-text">приєднуйтесь</p>
-          <ul class="media list">
+        <div class="footer__media-container">
+          <p class="footer__media-text footer__media-text--retreat">
+            приєднуйтесь
+          </p>
+          <ul class="footer__media media list">
             <li class="media__item">
               <a class="media__link link" href="#">
                 <svg class="media__icons" width="20" height="20">
@@ -316,12 +320,12 @@
             </li>
           </ul>
         </div>
-        <div class="signup-container">
-          <form>
-            <p class="signup-container__send signup-container__send--retreat">
+        <div class="footer__signup-container">
+          <form class="footer-form footer__form">
+            <p class="footer-form__send footer-form__send--retreat">
               Підпишіться на розсилку
             </p>
-            <div class="send send-container">
+            <div class="send footer-form__container">
               <label class="send__label">
                 <input
                   class="send__input"
