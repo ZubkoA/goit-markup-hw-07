@@ -1,0 +1,16 @@
+body {
+  font-family: "Roboto", "Raleway", "Tahoma", san-serif;
+  background-color: $third;
+  color: $main;
+  font-size: 14px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
